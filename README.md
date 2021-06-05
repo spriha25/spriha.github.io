@@ -1,1 +1,1 @@
-# spriha25.github.io
+# spriha.github.io
