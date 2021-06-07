@@ -320,7 +320,7 @@ html {
     min-height: 600px;
     min-width: 1000px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     margin: 0 auto;
 }
