@@ -324,6 +324,7 @@ html {
     align-items: center;
     margin: 0 auto;
 }
+
 @media screen and (max-width: 600px) {
     .container-skills {
         justify-content: flex-start;
@@ -337,6 +338,7 @@ html {
         padding-left: 20%;
     }
 }
+
 .border-skills {
     height: 369px;
     width: 290px;
@@ -386,6 +388,7 @@ html {
     opacity: 0;
     transition: opacity 1s;
 }
+
 
 /* Buttons */
 
@@ -1488,6 +1491,7 @@ pre code {
     }
 }
 
+//skills
 .container-fluid {
     width: 100%;
     padding-right: 15px;
