@@ -312,6 +312,18 @@ html {
     letter-spacing: 0.5px;
 }
 
+.container-skills {
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
 @media screen and (max-width: 600px) {
     .container-skills {
         justify-content: flex-start;
@@ -325,19 +337,6 @@ html {
         padding-left: 20%;
     }
 }
-.container-skills {
-    height: 100vh;
-    width: 100vw;
-    max-height: 800px;
-    max-width: 1280px;
-    min-height: 600px;
-    min-width: 1000px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-}
-
 .border-skills {
     height: 369px;
     width: 290px;
