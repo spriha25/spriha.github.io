@@ -332,7 +332,7 @@ html {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
     .container-skills {
         justify-content: flex-start;
         padding-left: 20%;
@@ -389,6 +389,19 @@ html {
     transition: opacity 1s;
 }
 
+.card1 {
+    background: url("https://media-exp3.licdn.com/dms/image/C4E22AQH-Kntwk-9W1A/feedshare-shrink_1280/0/1614751861637?e=1625702400&v=beta&t=_2pyX1-7NvTMdmiDWYAO-jNqoBgMPGVRhH77lNBe83E") center center no-repeat;
+    background-size: 300px;
+}
+
+.card1:hover {
+    background: url("https://media-exp3.licdn.com/dms/image/C4E22AQH-Kntwk-9W1A/feedshare-shrink_1280/0/1614751861637?e=1625702400&v=beta&t=_2pyX1-7NvTMdmiDWYAO-jNqoBgMPGVRhH77lNBe83E") left bottom no-repeat;
+    background-size: 300px;
+}
+
+.card1:hover h2 {
+    opacity: 1;
+}
 
 /* Buttons */
 
