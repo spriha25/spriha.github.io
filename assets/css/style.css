@@ -11086,3 +11086,92 @@ a.text-dark:focus {
 
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+.btn-shine {
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: linear-gradient(to right, #fff 0, #a43f49 10%, #fff 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: 'Playfair Display', serif;
+}
+
+@-moz-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 350px;
+    }
+}
+
+@-webkit-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 350px;
+    }
+}
+
+@-o-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 350px;
+    }
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 350px;
+    }
+}
+
+.glow-reveal {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+    font-family: 'Playfair Display';
+}
+
+@keyframes reveal {
+    80% {
+        letter-spacing: 2px;
+    }
+    100% {
+        background-size: 100% 100%;
+    }
+}
+
+@keyframes glow {
+    40% {
+        text-shadow: 0 0 8px #fff;
+    }
+}
+
+
+}
