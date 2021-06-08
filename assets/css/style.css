@@ -319,22 +319,18 @@ html {
     max-width: 1280px;
     min-height: 600px;
     min-width: 1000px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0 auto;
+    display: inline-flex;
+    padding-left:40%;
 }
 
 @media screen and (max-width: 600px) {
     .container-skills {
-        justify-content: flex-start;
         padding-left: 20%;
     }
 }
 
 @media screen and (max-width: 900px) {
     .container-skills {
-        justify-content: flex-start;
         padding-left: 20%;
     }
 }
@@ -362,9 +358,6 @@ html {
     background: #000;
     box-shadow: 0 70px 63px -60px #000;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
 }
 
 .card0 {
@@ -381,14 +374,6 @@ html {
     opacity: 1;
 }
 
-.h2-skills {
-    text-align: center;
-    color: #a43f49;
-    margin: 20px;
-    opacity: 0;
-    transition: opacity 1s;
-}
-
 .card1 {
     background: url("https://github.com/spriha25/spriha25.github.io/blob/main/assets/images/linkedin.JPG?raw=true") center center no-repeat;
     background-size: 300px;
@@ -402,6 +387,15 @@ html {
 .card1:hover h2 {
     opacity: 1;
 }
+.h2-skills {
+    text-align: center;
+    color: #a43f49;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    font-family: 'Playfair Display', serif;
+}
+
 
 /* Buttons */
 
