@@ -13,4 +13,4 @@ http://www.woothemes.com/flexslider/ and http://fontawesome.io  etc.
 This work is not commercial. And it is still work in progress, the contact form needs to be taken care of.
 
 ## Setup
-To run this project, click on the link spriha25.github.io
+To run this project, click on the link https://spriha25.github.io/
