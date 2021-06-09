@@ -10,7 +10,7 @@ The images are copyrighted by me and are private.
 Every other icon/ font has been used with credit in the comments from websites like
 http://www.woothemes.com/flexslider/ and http://fontawesome.io  etc.
 
-This work is not commercial. And it is still work in progress, the contact form needs to be taken care of.
+This work is not commercial. And it is still a work in progress.
 
 ## Setup
 To run this project, click on the link https://spriha25.github.io/
